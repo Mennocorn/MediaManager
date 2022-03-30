@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='MediaManger',
     version='0.0.1',
-    packages=['MediaManager'],
+    py_modules=['MediaManager/'],
     url='https://github.com/Mennocorn/MediaManger',
     license='MIT',
     author='Unicorn',
