@@ -8,7 +8,7 @@ class FileMaker:
         if os.path.exists(path):
             self.file = path
         else:
-            raise NotValidDirectory(f'"{path}" is not a valid file')
+            raise NonValidDirectory(f'"{path}" is not a valid file')
 
     def name(self):
         arg1 = self.file.split('/')

@@ -4,7 +4,7 @@ class FileMaker(Exception):
     pass
 
 
-class NotValidDirectory(FileMaker):
+class NonValidDirectory(FileMaker):
     pass
 
 
